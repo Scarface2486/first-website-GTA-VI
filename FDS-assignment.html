@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>FDS Assignment</title>
+<style>
+  body {
+    font-family: system-ui, Segoe UI, Roboto, Arial;
+    margin: 24px;
+    background: #0f0f12;
+    color: #eee;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+  }
+
+  .card {
+    background: #111217;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+  }
+
+  .meta {
+    font-size: 13px;
+    color: #9aa0b4;
+    margin-top: 8px;
+  }
+
+  * { box-sizing: border-box }
+
+  body {
+    margin: 0;
+    font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Helvetica,Arial,sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+
+  header {
+    padding: 48px 20px 24px;
+    text-align: center;
+    background: linear-gradient(180deg, #eaf1ff, transparent);
+  }
+
+  h1 {
+    margin: 0 0 10px;
+    font-size: clamp(28px, 4vw, 40px);
+  }
+
+  .subtitle {
+    color: var(--muted);
+    margin: 0;
+    font-size: clamp(14px, 2.2vw, 18px)
+  }
+
+  main {
+    max-width: 980px;
+    margin: 24px auto;
+    padding: 0 20px
+  }
+
+  h2 {
+    margin: 28px 0 8px;
+    font-size: clamp(20px, 3vw, 28px);
+  }
+
+  /* ?? Change section titles to blue */
+  h2.intro, h2.images, h2.desc 
+{
+    color: blue;
+  }
+
+  p {
+    margin: 8px 0 18px
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 14px;
+  }
+
+  .card {
+    background: var(--card);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0,0,0,.06);
+  }
+
+  .card img {
+    display: block;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+
+  .cap {
+    padding: 10px 12px;
+    font-size: 14px;
+    color: var(--muted)
+  }
+
+  footer {
+    max-width: 980px;
+    margin: 8px auto 40px;
+    padding: 0 20px;
+    color: var(--muted);
+    font-size: 14px
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>"GTA 6 Release Buzz: Leaks, Rumors, and Confirmed Details"</h1>
+  <p class="subtitle">GTA 6's release date is set to release on May 26, 2026.</p>
+</header>
+
+<main>
+  <!-- Subtitle #1 -->
+  <h2 class="intro">Introduction</h2>
+  <p>GTA 6's release date is set to release on May 26, 2026. GTA 6 is one of the biggest future releases coming our way in 2026. Set to bring us back to the iconic streets of Vice City for the first time in over 20 years, we'll be joining dual protagonists Lucia and Jason in in a long-awaited new open-world action adventure from Rockstar.
+  Following the first GTA 6 trailer, we got to see another look at the new game earlier this year, with a second trailer that fans meticulously combed over to uncover all of its secrets. Alongside some impressive beer tech and cloth animations, we also got a wealth of new screenshots that gave us a better look at the characters and locations.</p>
+
+  <!-- Subtitle #2 -->
+  <h2 class="images">Related images</h2>
+  <p>Here are some images related to GTA VI (Grant Theft Auto 6)!!!</p>
+
+  <section class="gallery" aria-label="Image gallery with five photos">
+    <figure class="card">
+      <img src="https://preview.redd.it/my-gta-6-box-cover-concept-art-v0-3l3ha8mb270f1.jpeg?auto=webp&s=f75de10ae48bf677765eb4249fb676433cf39c11" alt="Misty mountains and a winding river" />
+      <figcaption class="cap">Grand Theft Autu VI official logo</figcaption>
+    </figure>
+    <figure class="card">
+      <img src="https://www.rockstargames.com/VI/_next/image?url=%2FVI%2F_next%2Fstatic%2Fmedia%2FJason_and_Lucia_02_With_Logos_square.b022b2d6.jpg&w=1366&q=75" alt="A close-up portrait of a dog" />
+      <figcaption class="cap">GTA VI cover image</figcaption>
+    </figure>
+    <figure class="card">
+      <img src="https://www.rockstargames.com/VI/_next/image?url=%2FVI%2F_next%2Fstatic%2Fmedia%2FMount_Kalaga_National_Park_Postcard_square.7f1916ee.jpg&w=1366&q=75" alt="Misty mountains and a winding river" />
+      <figcaption class="cap">Mount Kalaga National Park Postcard</figcaption>
+    </figure>
+<figure class="card">
+ <img src="https://www.rockstargames.com/VI/_next/image?url=%2FVI%2F_next%2Fstatic%2Fmedia%2FLeonida_Keys_Postcard_square.7f9055ca.jpg&w=1366&q=75" alt="Misty mountains and a winding river" />
+ <figcaption class="cap">Leonida Keys Postcard</figcaption>
+ </figure> 
+     </section>
+    <!-- Subtitle #3 -->
+
+    <h2 class="desc">Description</h2>
+
+    <!-- Paragraph #3 of 3 -->
+
+    <p>Rockstar confirmed the release date in a post on Twitter, which pushes GTA 6's expected launch back from the previous Fall 2025 launch window - which was revealed in a Take-Two financial report back in May, 2024.
+
+In the release date announcement post, Rockstar Games states: "We are very sorry that this is later than you expected. The interest and excitement surrounding a new Grand Theft Auto has been truly humbling for our entire team. We want to thank you for your support and your patience as we work to finish the game."
+
+While confirmation of the delay does mean we'll have to wait longer to dive into Rockstar's open-world adventure, having a concreate date to look forward to rather than a vaguer launch window is a bit of a silver lining, with a Take-Two boss saying another delay is unlikely.The first GTA 6 reveal trailer is here, and it's everything that we hoped it would be. While Rockstar had originally set the GTA 6 trailer release date for Tuesday, December 5, 2024, a leak pushed the publisher to get the long-awaited first look at the new Grand Theft Auto out into the world a little earlier last year.
+
+The GTA 6 trailer, which you can view above, gives us a first look at the return to Vice City and the new protagonists. For a detailed overview, be sure to check out our GTA 6 trailer breakdown.GTA 6 trailer 2 gives us another look at the state of Leonida where the upcoming adventure will be taking place, along with some exciting story hints that build on what's been revealed previously. As dual protagonists Lucia Caminos and Jason Duval work together to find a new beginning in the city, we see Jason go to collect Lucia from prison, followed by several action shots of them both getting caught up in various hijinks. It's certainly giving off some Bonnie and Clyde vibes all over again.
+
+GTA 6 trailer 2's description also mentions that the "deck is stacked against them when an easy score goes wrong", which leads them to "the darkest side of the sunniest place in America, in the middle of a conspiracy" that's said to stretch "across the state". It sounds like we're about to get wrapped up some dangerous situations that'll force the pair to rely on each other.
+
+While we are still waiting for more teasers, you can check out our list of the best games like GTA to play now.
+
+</p>
+
+  </main>
+
+
+  <footer>
+    This is developed by
+
+				S.Vishva
+				(B.Tech/INFORMATION TECHNOLOGY)  </footer>
+
+</body>
+
+</html>
